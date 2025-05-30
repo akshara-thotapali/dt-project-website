@@ -1,0 +1,100 @@
+.irrigation-page {
+  background-color: #f4f9f4;
+  min-height: 100vh;
+  padding: 40px 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.irrigation-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.irrigation-header h2 {
+  color: #2c7a2c;
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.irrigation-header p {
+  color: #555;
+  max-width: 700px;
+  margin: 0 auto;
+  font-size: 1rem;
+}
+
+.soil-irrigation, .rainfall-irrigation {
+  margin-bottom: 40px;
+}
+
+.soil-irrigation h3, .rainfall-irrigation h3 {
+  color: #225522;
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.irrigation-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+.irrigation-card {
+  background-color: #fff;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.irrigation-card h4 {
+  margin-bottom: 10px;
+  color: #2c7a2c;
+}
+
+.irrigation-card ul {
+  list-style: disc inside;
+  color: #333;
+  font-size: 0.95rem;
+}
+
+.rainfall-groups {
+  display: grid;
+  gap: 20px;
+}
+
+.rainfall-block {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.rainfall-block h4 {
+  color: #2c7a2c;
+  margin-bottom: 10px;
+}
+
+.rainfall-method {
+  margin-bottom: 10px;
+}
+
+.rainfall-method strong {
+  display: block;
+  color: #444;
+  font-weight: 600;
+}
+
+.rainfall-method p {
+  margin: 5px 0 10px;
+  font-size: 0.95rem;
+  color: #555;
+}
+
+.footer {
+  text-align: center;
+  font-size: 0.85rem;
+  color: #777;
+  margin-top: 40px;
+  border-top: 1px solid #ddd;
+  padding-top: 15px;
+}

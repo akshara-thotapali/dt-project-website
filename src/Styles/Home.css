@@ -1,0 +1,136 @@
+/* Home.css – add styles for the new sections */
+/* Add this at the top of Home.css */
+
+.hero-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+  flex-wrap: wrap;
+  margin-bottom: 60px;
+}
+
+.hero-left {
+  flex: 1;
+  min-width: 280px;
+}
+
+.hero-left h1 {
+  font-size: 36px;
+  color: #2b9348;
+  margin-bottom: 10px;
+}
+
+.hero-left p {
+  font-size: 18px;
+  color: #333;
+}
+
+.hero-right {
+  flex: 1;
+  min-width: 280px;
+  display: flex;
+  justify-content: center;
+}
+
+.farmer-img {
+  width: 100%;
+  max-width: 400px;
+  animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+  0% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+  100% { transform: translateY(0); }
+}
+
+.home {
+  padding: 40px 20px;
+  background-color: #f6fff7;
+}
+
+/* ----------  FEATURES  ---------- */
+.hero-title {
+  text-align: center;
+  margin-bottom: 40px;
+}
+.hero-title h2 {
+  font-size: 32px;
+  color: #2b9348;
+  font-weight: 700;
+}
+.features {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+.feature-card {
+  background: #edf9ef;
+  border: 1px solid #d2ead2;
+  border-radius: 12px;
+  padding: 25px;
+  width: 280px;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s;
+}
+.feature-card h3 {
+  color: #1b5e20;
+  margin-bottom: 10px;
+}
+.feature-card:hover {
+  transform: translateY(-5px);
+}
+
+/* ----------  HOW IT WORKS  ---------- */
+.how-section {
+  margin-top: 70px;
+}
+.how-section h2 {
+  text-align: center;
+  color: #2b9348;
+  margin-bottom: 30px;
+}
+.work-blocks {
+  display: flex;
+  gap: 25px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.work-block {
+  flex: 1 1 320px;
+  background: #f0fff4;
+  border-left: 5px solid #2b9348;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+/* ----------  WHY USE  ---------- */
+.why-section {
+  margin-top: 60px;
+}
+.why-section h2 {
+  text-align: center;
+  color: #2b9348;
+  margin-bottom: 25px;
+}
+.why-cards {
+  display: flex;
+  gap: 25px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.why-card {
+  flex: 1 1 280px;
+  background: #f6fef7;
+  border: 1px solid #d6ecd9;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+.why-card h5 {
+  color: #1b5e20;
+  margin-bottom: 8px;
+}
