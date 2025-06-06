@@ -27,23 +27,21 @@ const App = () => {
     <Router>
       <nav className="main-nav">
         <h1>AGRIONE</h1>
-        <ul>
-          <li><Link to="/">{t('home')}</Link></li>
-          <li><Link to="/rainfall">{t('rainfall')}</Link></li>
-          <li><Link to="/soil">{t('soil')}</Link></li>
-          <li><Link to="/irrigation">{t('irrigation')}</Link></li>
-          <li><Link to="/about">{t('about')}</Link></li>
-        </ul>
+        <Link to="/">{t('Home')}</Link>
+      <Link to="/Rainfall">{t('RainfallPrediction')}</Link>
+      <Link to="/Soil">{t('SoilSuggestion')}</Link>
+      <Link to="/Irrigation">{t('IrrigationMethods')}</Link>
+      <Link to="/About">{t('AboutUs')}</Link>
         <LanguageSwitcher />
       </nav>
 
       <div className="page-container">
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/rainfall" element={<RainfallPrediction />} />
-          <Route path="/soil" element={<SoilSuggestions />} />
-          <Route path="/irrigation" element={<IrrigationMethods />} />
-          <Route path="/about" element={<AboutUs />} />
+          <Route path="/Rainfall" element={<RainfallPrediction />} />
+          <Route path="/Soil" element={<SoilSuggestions />} />
+          <Route path="/Irrigation" element={<IrrigationMethods />} />
+          <Route path="/About" element={<AboutUs />} />
         </Routes>
       </div>
 

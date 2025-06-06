@@ -7,7 +7,7 @@ const Home = () => {
   const { t, i18n } = useTranslation();
 
   return (
-    <div className="home">
+    <div className="Home">
       <section className="hero-section">
         <div className="hero-left">
           <h1>

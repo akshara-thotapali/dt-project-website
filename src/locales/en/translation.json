@@ -1,23 +1,7 @@
 {
-  "welcome": "Welcome to AGRIONE",
-  "description": "Smart Farming with AI-powered predictions. Plan better. Grow smarter.",
-  "features": "FEATURES",
-  "rainfall": "RAINFALL PREDICTION",
-  "rainfall_desc": "Forecast rainfall using AI and weather data to help you plan farming tasks efficiently.",
-  "soil": "SOIL SUGGESTION",
-  "soil_desc": "Analyze your soil type to suggest crops that grow best in your land conditions.",
-  "irrigation": "IRRIGATION METHODS",
-  "irrigation_desc": "Recommends smart irrigation based on crop, soil, and rainfall — saving water and boosting yield.",
-  "howWorks": "How AGRIONE Works",
-  "realTime": "Real-Time Rainfall Forecasting",
-  "realTime_desc": "AGRIONE analyzes weather data to predict rainfall in your region, helping farmers plan sowing, harvesting, and irrigation.",
-  "soilBased": "Soil-Based Crop Recommendations",
-  "soilBased_desc": "Input your soil type to get smart suggestions on which crops will grow best, improving productivity and reducing risk.",
-  "whyUse": "Why Use AGRIONE?",
-  "aiRain": "AI-Driven Rainfall Forecasting",
-  "aiRain_desc": "Know the rain before it comes. Our system predicts rainfall based on your location, helping you prepare in advance.",
-  "soilCrop": "Soil-Based Crop Suggestions",
-  "soilCrop_desc": "Just input your soil type and get personalised crop recommendations that suit your land’s nature.",
-  "smartIrrigation": "Smart Irrigation Planning",
-  "smartIrrigation_desc": "Get irrigation method suggestions that match your soil, saving water and improving crop health."
+  "Home": "Home",
+  "RainfallPrediction": "Rainfall Prediction",
+  "SoilSuggestion": "Soil Suggestion",
+  "IrrigationMethods": "Irrigation Methods",
+  "AboutUs": "About Us"
 }
